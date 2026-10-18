@@ -32,7 +32,7 @@ def get_bool_env(key: str, default: bool = False) -> bool:
     return default
 
 
-port = get_int_env("PORT", "8080")
+port = get_int_env("PORT", "7860")
 if not 1 <= port <= 65535:
     print("PORT must be between 1 and 65535")
     sys.exit(1)
